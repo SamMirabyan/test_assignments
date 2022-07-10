@@ -23,3 +23,21 @@
 (.../lesson_appearence$) python3 tests.py
 ```
 
+#### Инструкция по запуску
+1. Склонируйте репозиторий на локальную машину
+```bash
+git clone git@github.com:SamMirabyan/test_assignments.git
+```
+
+2. Создайте и активируйте виртуальное окрежение
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Установите зависимости
+```bash
+(venv) pip install -r requirements.txt
+```
+
+4. Выполните запуск скриптов, как указано в разделах 1-3.
