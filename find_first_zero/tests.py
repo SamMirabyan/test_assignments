@@ -98,7 +98,7 @@ def make_tests(func: callable) -> unittest.TestCase:
 
 
 class TestStringFindMethod(make_tests(find_first_zero_builtin)):
-    """ Тесты для фнукции, использующей str.find метод. """
+    """ Тесты для функции, использующей str.find метод. """
     pass
 
 
